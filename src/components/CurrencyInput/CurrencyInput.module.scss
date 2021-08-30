@@ -1,0 +1,92 @@
+@import "/src/assets/styles/common";
+
+.inputPanel {
+  position: relative;
+  border-radius: 16px;
+  background-color: #2C2F36;
+  z-index: 1;
+  width: initial;
+  margin-top: 8px;
+
+  .container {
+    border-radius: 20px;
+    border: 1px solid #2C2F36;
+    background-color: rgb(44, 47, 54);
+    width: initial;
+    &:focus, &:hover {
+      border: 1px solid #EDEEF2;
+    }
+  }
+  .inputRow {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px 16px 0;
+  }
+
+  .currencySelect {
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #191B1F;
+    color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.075);
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    height: 2.4rem;
+    padding: 0 8px;
+    justify-content: space-between;
+    display: flex;
+    &:focus, &:hover {
+      background-color: #2C2F36;
+    }
+  }
+
+  .aligner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .tokenName {
+    font-size: 18px;
+    margin: 0 0.25rem 0 0.25rem;
+  }
+
+  .labelRow {
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0 1rem 1rem;
+    span:hover {
+      cursor: pointer;
+      color: #C3C5CB33;
+    }
+  }
+
+  .fiatRow {
+    justify-content: flex-end;
+  }
+
+  .maxBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    color: #5090ea;
+    opacity: 1;
+    margin-left: 0.25rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+}

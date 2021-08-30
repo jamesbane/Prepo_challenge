@@ -1,0 +1,48 @@
+@import "/src/assets/styles/common";
+.panelContainer {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  border-radius: 8px;
+  border: 1px solid rgb(64, 68, 79);
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 10px;
+
+  .title {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .value {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .percent {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+
+
+}
+
+.autoRow {
+  display: grid;
+  grid-auto-rows: auto;
+  row-gap: 20px;
+}
+

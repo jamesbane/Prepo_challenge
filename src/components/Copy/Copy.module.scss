@@ -1,0 +1,21 @@
+.copyIcon {
+  color: #aeaeae;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  :hover,
+  :active,
+  :focus {
+    text-decoration: none;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.transactionStatus {
+  margin-left: 0.25rem;
+  align-items: center;
+  color: black;
+  color: #FAFAFA;
+}

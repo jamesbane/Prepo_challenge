@@ -1,0 +1,36 @@
+.row {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.rowEnd {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rowBetween {
+  justify-content: space-between;
+}
+
+.rowFixed {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.blueBtn {
+  background-color: rgba(21, 61, 111, 0.44);
+  color: rgb(80, 144, 234);
+  font-size: 16px;
+  font-weight: 500;
+}
